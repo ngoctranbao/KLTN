@@ -1,0 +1,1 @@
+python3 training_7D.py && python3 training_WOD.py
