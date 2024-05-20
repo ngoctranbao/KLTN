@@ -108,17 +108,23 @@ def pair_by_token(token: str):
         ]
     })
     if(len(response["data"]["pairs"]) == 0):
-        raise Exception(f'''Not found pair with token id = {token}''')
+        raise Exception(f'''Not found pair with token_id = {token}''')
     return response["data"]["pairs"][0]
 
 def pair_by_id(pair_id: str):
     response = send_request(query=query_template.pair_by_id, var={
         "pair": pair_id
     })
-    return response["data"]["pair"]
+    pair = response["data"]["pair"]
+    if(pair == None):
+        raise Exception(f'''Not valid pair_address: {pair_id}''')
+    return pair
 
-def liquidity_snapshots(pair: str):
+def liquidity_snapshots(pair_id: str):
     response = send_request(query=query_template.liquidity_snapshots, var={
-        "pair": pair
+        "pair": pair_id
     })
+    snapshots = response['data']['liquidityPositionSnapshots']
+    if(len(snapshots) == 0):
+        raise Exception(f'''Not valid pair_id: {pair_id}''')
     return response['data']['liquidityPositionSnapshots']

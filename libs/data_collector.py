@@ -149,5 +149,4 @@ def pair_data_wod(pair_id: str, label: bool = False):
         'token_creator_holding_ratio': token_creator_holding_ratio,
         'number_of_token_creation_of_creator': 1
     }
-    print(json.dumps(data, indent=1))
     return raw_data

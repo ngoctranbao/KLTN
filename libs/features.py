@@ -1,5 +1,5 @@
 # from libs.constant import *
-from libs import constant
+from libs import constant, uniswap_graphql
 from math import sqrt
 from decimal import Decimal
 
@@ -68,7 +68,6 @@ def lp_distribution(holders):
         if(holder['share'] < 0.01 ):
             break
         count = count + 1
-    print(count)
     LP_avg = 100 / count if count != 0  else 0
     var = 0
     for i in range(count):
@@ -160,3 +159,14 @@ def rugpull_timestamp(mints,swaps,burns,token_index):
             if(check_rugpull(before_tx_eth,current_liquidity_eth)):
                 return tx_timestamp(burns,k), Decimal(current_liquidity_eth / before_tx_eth) -1, True, before_tx_eth,current_liquidity_eth,'burn',burns[k]['id']
             k = k+1
+            
+def check_rugpull_by_liquidity_snapshots(pair_id: str):
+    snapshots = uniswap_graphql.liquidity_snapshots(pair_id=pair_id)
+    token_id = token_index(snapshots[0]['pair'])
+    before_price_usd = 0
+    for snapshot in snapshots:
+        current_price_usd = Decimal(snapshot[f'''token{token_id}PriceUSD'''])
+        if(before_price_usd > 0 and current_price_usd >= 0 and current_price_usd/before_price_usd <= 0.01):
+            return True, snapshot['timestamp']
+        before_price_usd = current_price_usd
+    return False, '0'

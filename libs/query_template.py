@@ -134,11 +134,22 @@ liquidity_snapshots = '''
 query ($pair: String) {
     liquidityPositionSnapshots(
         where: { pair: $pair }
-        orderBy: block
+        orderBy: timestamp
         orderDirection: asc
         first: 1000
     ) {
         id
+        pair {
+            token0 {
+                symbol
+                id
+            }
+            id
+            token1 {
+                symbol
+                id
+            }
+        }
         timestamp
         block
         token0PriceUSD

@@ -1,7 +1,5 @@
-from sklearn.model_selection import StratifiedKFold, train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 import pandas as pd
 import joblib
 
