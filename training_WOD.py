@@ -20,3 +20,5 @@ xgboost_model.fit(x, y)
 
 joblib.dump(xgboost_model, './models/WOD/xgboost_model.joblib')
 joblib.dump(scaler, './models/WOD/scaler.joblib')
+
+print("Model WOD has been trained and exported")

@@ -1,21 +1,25 @@
 from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
-from libs import data_collector, features, uniswap_graphql
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from libs import data_collector, features, uniswap_graphql, training
+from xgboost import XGBClassifier
+
 app = Flask(__name__)
 
-
-
-# Load the model and scaler
-xgboost_model_WOD = joblib.load('./models/WOD/xgboost_model.joblib')
-scaler_WOD = joblib.load('./models/WOD/scaler.joblib')
-
-xgboost_model_7D = joblib.load('./models/7D/xgboost_model.joblib')
-scaler_7D = joblib.load('./models/7D/scaler.joblib')
 
 @app.route('/api/predict/WOD', methods=['GET'])
 def predict_WOD():
     try:
+        try:
+            xgboost_model_WOD = joblib.load('./models/WOD/xgboost_model.joblib')
+            scaler_WOD = joblib.load('./models/WOD/scaler.joblib')
+        except:
+            print("Fail to load model and scaler")
+            training.train('WOD')
+            xgboost_model_7D = joblib.load('./models/WOD/xgboost_model.joblib')
+            scaler_7D = joblib.load('./models/WOD/scaler.joblib')
+            print("New model has trained")
         # Extract pair_id from the request
         pair_id = request.args.get('pair_id')
         pair = uniswap_graphql.pair_by_id(pair_id)
@@ -65,6 +69,15 @@ def predict_WOD():
 @app.route('/api/predict/7D', methods=['GET'])
 def predict_7D():
     try:
+        try:
+            xgboost_model_7D = joblib.load('./models/7D/xgboost_model.joblib')
+            scaler_7D = joblib.load('./models/7D/scaler.joblib')
+        except:
+            print("Fail to load model and scaler")
+            training.train(method='7D')
+            xgboost_model_7D = joblib.load('./models/7D/xgboost_model.joblib')
+            scaler_7D = joblib.load('./models/7D/scaler.joblib')
+            print("New model has trained")
         # Extract pair_id from the request
         pair_id = request.args.get('pair_id')
         pair = uniswap_graphql.pair_by_id(pair_id)
@@ -115,6 +128,24 @@ def predict_7D():
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
-
+@app.route('/api/train/WOD', methods=['POST'])
+def train_WOD():
+    try:
+        training.train('WOD')
+        
+        return jsonify({'message': 'Model WOD has been trained and exported'}), 200
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+    
+@app.route('/api/train/7D', methods=['POST'])
+def train_7D():
+    try:
+        training.train(method='7D')        
+        return jsonify({'message': 'Model 7D has been trained and exported'}), 200
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+    
 if __name__ == '__main__':
     app.run(debug=True)

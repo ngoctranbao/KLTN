@@ -17,6 +17,6 @@ scaler = StandardScaler().fit(x)
 x = pd.DataFrame(scaler.transform(x))
 xgboost_model = XGBClassifier(objective="binary:logistic", n_estimators=20, random_state=42, eval_metric=["auc", "error", "error@0.6"])
 xgboost_model.fit(x, y)
-
 joblib.dump(xgboost_model, './models/7D/xgboost_model.joblib')
 joblib.dump(scaler, './models/7D/scaler.joblib')
+print("Model 7D has been trained and exported")
