@@ -1,1 +1,0 @@
-python3 data_collection_7D.py && python3 data_collection_WOD.py
