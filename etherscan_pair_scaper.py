@@ -3,10 +3,10 @@ from libs import uniswap_graphql
 import pandas as pd
 
 # Load the tokens DataFrame
-tokens = pd.read_csv("./datasets/tokens.csv")
+tokens = pd.read_csv("./datasets/etherscan_tokens.csv")
 
 # Define the output file path
-output_file = "./datasets/new_pairs.csv"
+output_file = "./datasets/etherscan_new_pairs.csv"
 
 # Open the CSV file in write mode to write the header
 with open(output_file, mode='w', newline='') as file:
