@@ -7,27 +7,45 @@ def scrape_pairs(source_file, destination_file):
     # Load the tokens DataFrame
     tokens = pd.read_csv(source_file)
 
-    # Open the CSV file in write mode to write the header
-    with open(destination_file, mode='w', newline='') as file:
-        writer = csv.DictWriter(file, fieldnames=['id', 'label'])
-        writer.writeheader()
+    # Load existing IDs from the destination file into a set
+    existing_ids = set()
+    try:
+        with open(destination_file, mode='r', newline='') as file:
+            reader = csv.DictReader(file)
+            existing_ids = {row['id'] for row in reader}
+    except FileNotFoundError:
+        # If the file does not exist, we start with an empty set
+        existing_ids = set()
 
-    # Iterate over the tokens DataFrame
-    for index, token in tokens.iterrows():
-        try:
-            # Attempt to retrieve the pair information by token ID
-            result = uniswap_graphql.pair_by_token(token["Id"])
-            pair_data = {'id': result["id"], 'label': False}
+    # Open the CSV file in append mode to write the new entries
+    with open(destination_file, mode='a', newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=['id', 'label'])
+        
+        # Iterate over the tokens DataFrame
+        for index, token in tokens.iterrows():
+            token_id = token["Id"]
             
-            # Append the result to the CSV file
-            with open(destination_file, mode='a', newline='') as file:
-                writer = csv.DictWriter(file, fieldnames=['id', 'label'])
+            try:
+                # Attempt to retrieve the pair information by token ID
+                result = uniswap_graphql.pair_by_token(token_id)
+                pair_id = result["id"]
+
+                if pair_id in existing_ids:
+                    print(f"Pair {pair_id} already exists. Skipping...")
+                    continue
+                
+                pair_data = {'id': pair_id, 'label': False}
+                
+                # Append the result to the CSV file
                 writer.writerow(pair_data)
-            
-            print(f"Success for token {token['Id']}")
-        except Exception as e:
-            # Print the error message if an exception occurs
-            print(f"Error processing token {token['Id']}: {e}")
+                
+                # Add the newly added ID to the set
+                existing_ids.add(pair_id)
+                
+                print(f"Success for token {token_id}")
+            except Exception as e:
+                # Print the error message if an exception occurs
+                print(f"Error processing token {token_id}: {e}")
 
 if __name__ == "__main__":
     # Set up argument parsing
