@@ -38,14 +38,13 @@ def swap_io(token_index: int, swaps: list) -> tuple[int, int]:
     return (swapIn, swapOut)
 
 def last_timestamp(mints: list, burns: list, swaps: list) -> int:
-    last_mint = mints[-1]['timestamp']
-    last_burn = burns[-1]['timestamp'] if len(burns) > 0 else 0
-    last_swap = swaps[-1]['timestamp'] if len(swaps) > 0 else 0
-    
+    last_mint = int(mints[-1]['timestamp'])
+    last_burn = int(burns[-1]['timestamp']) if len(burns) > 0 else 0
+    last_swap = int(swaps[-1]['timestamp']) if len(swaps) > 0 else 0
     return max(last_mint, max(last_burn, last_swap))
 
 def init_timestamp(mints: list) -> int:
-    return mints[0]['timestamp']
+    return int(mints[0]['timestamp'])
 
 def tx_mean_period(txs: list, init_timestamp: int) -> float:
     cnt = len(txs)
@@ -89,9 +88,9 @@ def burn_ratio(holders):
 
 def tx_timestamp(transactions: list,index: int) -> int:
   try:
-    return transactions[index]['timestamp']
+    return int(transactions[index]['timestamp'])
   except:
-    return '99999999999'
+    return 99999999999
 
 def check_rugpull(before_transaction_eth: Decimal, current_liquidity_eth: Decimal) -> bool:
     # Kiểm tra tỷ lệ và giá trị âm trong một điều kiện duy nhất
