@@ -3,7 +3,7 @@ import concurrent.futures
 from libs import query_template
 
 def send_request(query, var):
-    response = requests.post('https://gateway-arbitrum.network.thegraph.com/api/8000920019a196b7b98c8417413ecd34/subgraphs/id/EYCKATKGBKLWvSfwvBjzfCBmGwYNdVkduYXVivCsLRFu', 
+    response = requests.post('https://gateway.thegraph.com/api/09f17edaf30104f34019f90a7532b82e/subgraphs/id/EYCKATKGBKLWvSfwvBjzfCBmGwYNdVkduYXVivCsLRFu', 
                             json={
                                 "query": query,
                                 "variables": var

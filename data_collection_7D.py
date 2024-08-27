@@ -3,7 +3,7 @@ import argparse
 from libs import data_collector
 
 def process_pairs(pairs_data_path):
-    raw_data_path = './datasets/7D.csv'
+    raw_data_path = './datasets/Dataset_7D.csv'
     
     # Đọc dữ liệu từ file pairs
     pairs = pd.read_csv(pairs_data_path)
