@@ -1,0 +1,902 @@
+[
+    {
+        "pair_id": "0x3cd1c0b98be4451ca51265bbaeb76cf7b31e1c02",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x0c52de7bb69edd144d58d772fab1cd196919f5ef",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xa00d47b4b304792eb07b09233467b690db847c91",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x114e40ba90e9d8b002bc6936e3299daa393017bb",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x40829a59080a12f16bb8fba22354a6a42c810aab",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3f759c3f4cdba32e69ddf607e0cdcc2547061b97",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x182885fa47b63c02d06a8d65db3bf3871be9f998",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x6b8bc6cebaa266429f387125d433e46f59cdb499",
+        "lp_creator_holding_ratio": 15.53,
+        "token_creator_holding_ratio": 0.1
+    },
+    {
+        "pair_id": "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x5c460c0054fd472a821a5a601378f0d2bf02a9b4",
+        "lp_creator_holding_ratio": 79.44,
+        "token_creator_holding_ratio": 5.84
+    },
+    {
+        "pair_id": "0x49179a590b086ee09dacc5750cfdb312c0c73d10",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x748a9631bad6af6d048ae66e2e6e3f44213fb1e0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x2cea677e38f16a3016cab43b533efda0458af0e6",
+        "lp_creator_holding_ratio": 93.28,
+        "token_creator_holding_ratio": 24.3
+    },
+    {
+        "pair_id": "0x4c4f05f0876592829b3caf81d394353183ed2b18",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x4ce78b0c8324a0d3782a17ee8989485864c07866",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xa469d741ffe634154cd2f94dff4b8be907940340",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x65d0a154d2425ce2fd5fed3bdae94d9a9afe55ce",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xdfcc12a0aad50d84639d558551edd7a523b69ac5",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x96b878255ed11e149938c9936f9aad87d955b0cc",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x0bf46ba06dc1d33c3bd80ff42497ebff13a88900",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xbcee2657b37db70f9052637a5d801e87c260068f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x1b7c2f100dd432cfa3268e0e4674e9e1954e48ce",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3d07f6e1627da96b8836190de64c1aed70e3fc55",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x6d051fe6f3f53dce2981757b480c468c22e91983",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x37e8e9fa75c78d55ab3a3849879ffaed0fb3a2b2",
+        "lp_creator_holding_ratio": 0.01,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3473c92d47a2226b1503dfe7c929b2ae454f6b22",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xbd14cf87f2bef0ad704ee962a220d4492695eb4b",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x39c0edef530d284b8f7820061114157c5bd78093",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 29.28
+    },
+    {
+        "pair_id": "0x1b10fa100c9cbbba76853ad2f9a42b9340ce7164",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x611abc072ee91c0cc19ffef97ac7e69a1a7a17ec",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xe4fabdb6b1658aa39146d8017c0266f8fb0f1f1e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xfb0997696919ba43275f4156f9550b9f68f5edfe",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x608095446de5500937d50fff7f0f39e307e7a62a",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x1ddf85abdf165d2360b31d9603b487e0275e3928",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x2351e35ff4ffc2d68d33bec9c62c3786338307e0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xf4835af5387fab6bbc59f496cbcfa92998469b7b",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x9ff73c7adb72af71e52b55d27e269fe587ad9c6c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xf44e8ff3bb644479124e691bf572f7813a1bc499",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb52c5f5b96a428ff13cc5e60247b73cb4e13b2d9",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xaec21057bb0c910c22f6f6db64ae6743e96718b4",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x4d3138931437dcc356ca511ac812e14ba8199fd6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xe7f15f697ee71df9e208ccf15ff95e7ad41a067a",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xf515bfe5c785beb57fb93c62dc285698931a0ff7",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x51c2b78e423ff673e07b1066f6448b5e91a9ee08",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xe32479d25b6cb8c02507c3568813e11a37fa32ca",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x8f26ff275b5f6be2f1654a396cf726e8ec88636f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb14b9464b52f502b0edf51ba3a529bc63706b458",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x90edfee1a563c2f6c766730f902951ff48128a8c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 14.92
+    },
+    {
+        "pair_id": "0x356b3ae8fdb6532d62ad337eeeeac8a363cb8c55",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xcc888f701a6f7a9100dd71064aff002f7ef898ae",
+        "lp_creator_holding_ratio": 3.01,
+        "token_creator_holding_ratio": 98.83
+    },
+    {
+        "pair_id": "0xa12ed7f322b99f136d09de6f56c7e1557ecd8c27",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x2b53861bb489501537cddf9bfec8f1caa2851a24",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3a417de058cee3640b3fa83f0778e0daaa7bc76e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xcce561cd3217dc5a6f9b9919fd3928cf3d0e282f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x0f2156fbe6142c72c150d30c2522a5988110b013",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x4c3c158fec9adc51390f8986e904bc6ca24b95e0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xca7d3e930932a6cb26ae4e06c18b2ad09a43bb90",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xcceb09c6d9bb5e9eaed77475b610e6019af05cde",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xa7ecd98d229770885123b3fbd41930b0bd90dd8d",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x0595df8d96f7fa5a0f383bb048ae7df8e0e96366",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x5c344edd13de1ad056102d13876f97b4e6dec19c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb270c04ae0e2756db1a6801a5d1a4d8d54f3b2ae",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xc38a433ca0a143a0dc3389ea527aef8349178f44",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xe805730341d3f49dd404947ccb6f9bd6f6e978ce",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xc301f34fbfc16b9b35483db582e15bb06a45e267",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x92a6eee7f57581eba1bca3b52808d2b49da8b020",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 33.81
+    },
+    {
+        "pair_id": "0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x48616d7ecbf2a439cadd4801fbd643ad2e9d4ee6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x660e400f072272832cd4ea0314f6afefd7e87f3a",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x16a07649152c893a66ee85ee18de74016ca6cff6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x9a25d21e204f10177738edb0c3345bd88478aaa2",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0.68
+    },
+    {
+        "pair_id": "0xcdc477f2ccff2d8883067c9f23cf489f2b994d00",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xae938f702c8f3ac9a9862635059989c7a9ddb5e6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb6dd4a1adc8604ccda62c7ba92410d81647b2d61",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xc1c191fee3e903ba5fcf3a467145978254a67079",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xd521ea2eac8f7a575aa985b150265e7ec0767a5f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x1f07f8e712659087914b96db4d6f6e4fee32285e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xfecc3b6fab9e07e1f2e6c712d17f86ff2b5ee5ac",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 42.18
+    },
+    {
+        "pair_id": "0x1ddd1e05f823e39e5e4bf07dc2b800842c7039cc",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 23.61
+    },
+    {
+        "pair_id": "0xbea4bf89b7f463850910221b611e4e27837057dc",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x63607de7ae773638d012561a01383ab8ac321371",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xca03a632afcc860b04579f332a565835a9dd22d4",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xad0c4e9fbb6ccff344a12ba33890925d4479c696",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x480247d73cfa6ccc5b75c4012df9686cada87595",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xaa9b647f42858f2db441f0aa75843a8e7fd5aff2",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x1877050a70a753aaac65743ff43199e08b6e2fb8",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 82.26
+    },
+    {
+        "pair_id": "0xbacb3673b547c5941412a82621254f479f63a899",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xbc00e708c407d7633f7504434e74c13e171de7f1",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xdfe56501901e58c175e4ff381b4cf6b39d3bea22",
+        "lp_creator_holding_ratio": 50.7,
+        "token_creator_holding_ratio": 25.34
+    },
+    {
+        "pair_id": "0xd563809827023e5b1160b554b86fe47f50cf9c44",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3eb09d108d1f61f10860b8bb1b13b5b4abc3f49d",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x9ad7a41e1a58dde1eaa3ae64f683bd3d9d6dafb9",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb0e941199778eae80cf20cecea97e459d075eabb",
+        "lp_creator_holding_ratio": 6.58,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb8b1ad5d01dd8359ad201ed928ec03427333b513",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xa016567ee816af8863869954be3e3aff72252992",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x1a72f5f060c821efdc24a5bb20ce59a3b1caaf77",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x700fa01ac5b01d6d92384062906f463292e682c9",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x24286ea19bda3d0e40905b60ea8189d3358fe8d2",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xf461aca91c224cf69238372598949e200e5395ca",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xd0c59ec31b3e9e0f26a5bbf1b3cb9dab05ae58e9",
+        "lp_creator_holding_ratio": 0.01,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3bb433ee4f4045d793fb9163e309e6735a7c3df5",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 1.85
+    },
+    {
+        "pair_id": "0x0383eeb899e7fc0f4f696ebfcb5672ad7e0d271c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xdd71c8d71bf8291e16535bdadbd44e54b7d9bee6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 33.75
+    },
+    {
+        "pair_id": "0xe7b0c13adb5ab3323d07734a469709b05d15a762",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x463d0f2b7b0b596ba50296a245c0d3810700fb4f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 23.82
+    },
+    {
+        "pair_id": "0x9e3fcc46ef41eb5c20f404c4c35848deb34044fc",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x90e50950a2da4d5f01d10d25d0812a11da32bd4f",
+        "lp_creator_holding_ratio": 85.33,
+        "token_creator_holding_ratio": 11.32
+    },
+    {
+        "pair_id": "0x8dfd6f03580f8ee88587f4c051aab7193d7bdf8a",
+        "lp_creator_holding_ratio": 0.23,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x54febfc615d90c8b3e836c6e5aeabbb734e1672f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x395c0db5926667fd89d84e17ba24de39ae94723e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xe61530bd58392488f7a8d33ad1c1f59626e2f650",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xae2ccc3c442d0e707e138d1514174bc4cdd944f9",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x40902c98b878471d1e50a846b016525bc8bef836",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x47695b707c109fe74fdb59585d1cfb316db73bb1",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x34abfc04b97fb34ccdd8942a7d426e971a10b71e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 4.85
+    },
+    {
+        "pair_id": "0x50bc11ae9f427ddd67d5bb0761b0f8792538b8b3",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x8fc36bc897b019dad5652581b1d54f9671a1cbe6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xa5ab281f4e794b80cc8155103f55f2522e83999d",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 95.06
+    },
+    {
+        "pair_id": "0x72f7a5dd669c1491f961409feaf6c4c56a2557f7",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x6a97c713430c1087303c49f0d345608321f716bb",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xf3e0e2b277fa9b0756a4089eed3be1c1e87fef89",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 12.76
+    },
+    {
+        "pair_id": "0x07c3cef49becadd14917508fa527b240efb960f1",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x5e4112af7fbd5200d254ff852302b991bff97b64",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 99.84
+    },
+    {
+        "pair_id": "0x7fe817dc77b8f7f4a53a2ef9385b193298769ffe",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x51b452e851814d9523ef7f1539804254ceb394a5",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x5a95ecef7cc5f8b93b31dfe09a5f1c4fdfe6ad5f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x19efce528dbbf6ebc438904c00a82b33e9104dbf",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x6425fd915d172d57e949703b8974a51208db60ac",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xa3c063b2484b9adc4e2dca4967363c1127c258cc",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xfa097fa7a36c6845b7f48b1e895ab225b93417d1",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xd280e59996877fc796776cdc5ff8c35a884403e7",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x212ec2cb4b5e2c89638a7dcc21779f42d0d72c8c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xf76439206276adcaec861af77e4e27b030722353",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xdafd9cf3a155576f235a86795b044b2a87e667a2",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x0855ff6b8a63cc757fcbb14a0b3dc17fde67c6c0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 1.41
+    },
+    {
+        "pair_id": "0xde385fc6e57f289d1efd41c8968e411d747d0215",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 4.67
+    },
+    {
+        "pair_id": "0x3b449a17c0230aebaa002982603a5141a250dbae",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x5633ffafc62983abfeeb05c52343cd68690a27df",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 3.69
+    },
+    {
+        "pair_id": "0x141c03c954587f04406967646674f0581dcc2d85",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 38.13
+    },
+    {
+        "pair_id": "0x2918724697586cad2aab78508f337c8a1e81d19b",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 74
+    },
+    {
+        "pair_id": "0x8bbe7ef058cb024b44858e788bc82796613a28f3",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 97.32
+    },
+    {
+        "pair_id": "0x2083f4cbc0c7def7ffcd8851a3ce4cedd1d0af6e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xd65b00e1cec5363c7b48c9f6dfc4910137d8b1d0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x16c0ffcf11c84bd7cb28123a53201692a61c2399",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x5386632cd12cb93fed69db090f46749b6394aa34",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 43.2
+    },
+    {
+        "pair_id": "0x36aa967b9483b23ebe910a8076d2a8bf1fb64fa8",
+        "lp_creator_holding_ratio": 69.72,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x8a7dd4317342f4a58c3f7a2a68898d33485c50cf",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x468eb3191b34c92df0a6132719dd98bea81c05d7",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x84f7b05a470316ebb1a60fd70262cddd9f09cece",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 74.5
+    },
+    {
+        "pair_id": "0x3e3a3227fe24164c18cacf3fa45f655241f7829f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 78.15
+    },
+    {
+        "pair_id": "0x018905a647df1dae14f1d938f9bc39a099b6fb0f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x7e8dea8064cc16b7b2c5febafd5a5e655c3a379e",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xcff21afbaf932115c94b35291965831a88ea05ba",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x46d72bea406334365820b204a0a847140f6a1da2",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 72.62
+    },
+    {
+        "pair_id": "0x9c12912387e7d0ea3d458e9b30b69dfc2a6a119c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x8d7a7733a96efbb3e9c2641276d8d7d0e997d2fa",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x4c3ae176593982ee76bd28d388e5b7e558a11613",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x7a1b5bc8e2421bb7f5936ae450e920e8b28893e6",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xc9a2ca1e4c478e0a2868cdb7012c5c2a2bc2e46b",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 97.36
+    },
+    {
+        "pair_id": "0x8da560a30ab95ec3f59cba4a2e96bfb5d83ca34d",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xac97e2c145ed2461ba302e053b9bd920f3f84a15",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 9.08
+    },
+    {
+        "pair_id": "0x7a2a78ee891f6596b362d56e791835b8e70ff20c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x3c3b659792f7bce7f06e9c72ea63d3eae9cee93c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 15.88
+    },
+    {
+        "pair_id": "0xdecdc1a182cedd3e1869d285683556d3ecd4c063",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 33.94
+    },
+    {
+        "pair_id": "0x9f5d1b0379e033c25e88b16a79faa8a0839de1ac",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x988dbe2bbdd827648d88ee21199f71f33f83865a",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 90.25
+    },
+    {
+        "pair_id": "0xb43388a56b1da83e4408284b4c7c17da88c31b5b",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xc2f02caa6bcac59944912a1446365c4d9c16cc97",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb548ea1744f1c057a4d50c8b97e93a80e63613a0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x4d0cfd624d6cd51fe4a63f03ee29332f98122942",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 13.74
+    },
+    {
+        "pair_id": "0x34e097488bea76804026f32f8b9b6816b41c80ba",
+        "lp_creator_holding_ratio": 100,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x1ff2ed7765b0e526d0e3cf2503cf69af057ade9d",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x39ed7d8472feeec6d7e2e5f32f7987f85a43e1ec",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 8.88
+    },
+    {
+        "pair_id": "0x5c329cf9911b562d5cde20b27de44626d1e4ea1c",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xc0f1476dcc47def9edda0504f8db73ed7422aa6f",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x6e7cb3baacc5bfe66d2b1a8186c1d389838908f5",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xb7007dbe993242c067f87f20f74c55debd2a13cd",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0x54e855622ec297467573475f64b00459708411f0",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 0
+    },
+    {
+        "pair_id": "0xab69f0c1453bc326a4791c8b67734549c1581f81",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 36.88
+    },
+    {
+        "pair_id": "0xb803d636005eb78b92604a39df3ffa8eafd7284a",
+        "lp_creator_holding_ratio": 0,
+        "token_creator_holding_ratio": 49.65
+    }
+]
